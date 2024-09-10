@@ -1,9 +1,9 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import HomePage from './pages/HomePage';
-import CatalogPage from './pages/CatalogPage';
-import CamperPage from './pages/CamperPage';
-import Navbar from './components/Navbar';
+import HomePage from './pages/HomePage/HomePage';
+import CatalogPage from './pages/CatalogPage/CatalogPage';
+import CamperPage from './pages/CamperPage/CamperPage';
+import Navbar from './components/Navbar/Navbar';
 
 function App() {
   return (
