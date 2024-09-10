@@ -1,20 +1,14 @@
-import React from 'react';
-import { useNavigate } from 'react-router-dom';
-
+import { Helmet } from 'react-helmet-async'
+import MainInfo from '../../components/MainInfo/MainInfo'
 const HomePage = () => {
-  const navigate = useNavigate();
+    return (
+      <>
+        <Helmet>
+            <title>Home Page</title>
+        </Helmet>
+        <MainInfo/>
+      </>
+  )
+}
 
-  const handleViewNowClick = () => {
-    navigate('/catalog');
-  };
-
-  return (
-    <div>
-      <h1>Welcome to TravelTrucks</h1>
-      <p>Discover your perfect camper for the road trip of your dreams!</p>
-      <button onClick={handleViewNowClick}>View Now</button>
-    </div>
-  );
-};
-
-export default HomePage;
+export default HomePage
