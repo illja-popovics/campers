@@ -29,19 +29,24 @@ vehicle details.
 
 To get started with TravelTrucks, follow these steps:
 
-    1.	Clone the repository:
+1. **Clone the repository**:
 
-    ```git clone https://github.com/yourusername/traveltrucks.git
+   ```bash
+   git clone https://github.com/yourusername/traveltrucks.git
+   cd traveltrucks
+   ```
 
-cd traveltrucks````
+2. **Install dependencies**:
 
-    2.	Install dependencies:
+   ```bash
+   npm install
+   ```
 
-```npm install````
+3. **Start the development server**:
 
-    3.	Start the development server:
-
-```npm start````
+   ```bash
+   npm start
+   ```
 
 This will start the application on http://localhost:3000.
 
