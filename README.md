@@ -1,4 +1,4 @@
-#TravelTrucks
+# TravelTrucks
 
 TravelTrucks is a web application designed to help users find and book campers.
 It features a catalog of camper vehicles, detailed views of each camper, and a
@@ -6,7 +6,7 @@ favorite management system. Users can search for campers based on various
 filters and view detailed information about each camper, including reviews and
 vehicle details.
 
-##Features
+## Features
 
     •	Home Page: Displays an overview and introduction to the TravelTrucks service.
     •	Catalog Page: Lists available campers with filtering and sorting options.
@@ -14,7 +14,7 @@ vehicle details.
     •	Favourites Page: Allows users to view and manage their favorite campers.
     •	Responsive Design: Fully responsive design to ensure a smooth user experience across different devices.
 
-##Technologies Used
+## Technologies Used
 
     •	React: JavaScript library for building user interfaces.
     •	Redux: State management library for managing application state.
@@ -25,7 +25,7 @@ vehicle details.
     •	Yup: Schema validation library for form validation.
     •	React Loader Spinner: For displaying loading indicators.
 
-##Installation
+## Installation
 
 To get started with TravelTrucks, follow these steps:
 
